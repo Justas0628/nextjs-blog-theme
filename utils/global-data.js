@@ -1,7 +1,7 @@
 export const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
-    : '"hacked by atlastoby" - emilis';
+    : '"AtlasToby.fun - Geriausias Minecraft serveris';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
     : 'AtlasToby.fun - Geriausias Minecraft serveris';
